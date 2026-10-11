@@ -1,0 +1,10 @@
+numpy
+scipy
+torchmetrics
+scikit-image
+lpips
+tqdm
+ninja
+setuptools
+wheel
+

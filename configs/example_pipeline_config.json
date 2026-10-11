@@ -1,0 +1,26 @@
+{
+  "method": "ultragauss",
+  "data_npz": "example_dataset.npz",
+  "output_dir": "runs/example_ultragauss",
+  "device": "cuda",
+  "seed": 42,
+  "iterations": 1000,
+  "eval_every": 100,
+  "save_every": 200,
+  "log_every": 10,
+  "num_init": 100000,
+  "learning_rate": 0.001,
+  "loss_l1_weight": 1.0,
+  "loss_ssim_weight": 0.0,
+  "train_fraction": 0.8,
+  "image_height": 256,
+  "image_width": 256,
+  "delta_lateral_mm": 0.2,
+  "delta_axial_mm": 0.2,
+  "delta_elevational_mm": 0.5,
+  "near_mm": 0.0,
+  "far_mm": 51.2,
+  "width_mm": 51.2,
+  "center_lateral": true
+}
+
